@@ -1,0 +1,862 @@
+{
+  "uuid" : "cd267e5b-6835-4db2-a861-8b78f38271fe",
+  "last_modified" : 1479202699684,
+  "version" : "1.6.0",
+  "name" : "DM_CLJY_M_ALL_LABEL",
+  "columns" : [ {
+    "id" : "1",
+    "name" : "MONTH_ID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "2",
+    "name" : "PROV_ID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "3",
+    "name" : "AREA_ID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "4",
+    "name" : "SUBS_INSTANCE_ID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "5",
+    "name" : "DEVICE_BIGINT",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "6",
+    "name" : "SERVICE_TYPE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "7",
+    "name" : "PAY_MODE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "8",
+    "name" : "IS_INNET",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "9",
+    "name" : "IS_DEV",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "10",
+    "name" : "IS_BREAK",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "11",
+    "name" : "IS_ACTIVE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "12",
+    "name" : "IS_LOWER_VALUE_USER",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "13",
+    "name" : "CUST_ID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "14",
+    "name" : "PRODUCT_CLASS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "15",
+    "name" : "PRODUCT_CLASS_DESC",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "16",
+    "name" : "PRODUCT_BASE_CLASS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "17",
+    "name" : "PRODUCT_BASE_CLASS_DESC",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "18",
+    "name" : "USER_STATUS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "19",
+    "name" : "ACCT_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "20",
+    "name" : "RENT_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "21",
+    "name" : "FUNC_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "22",
+    "name" : "OT_FIX_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "23",
+    "name" : "LOCAL_VOICE_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "24",
+    "name" : "LONG_VOICE_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "25",
+    "name" : "ROAM_VOICE_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "26",
+    "name" : "OT_VOICE_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "27",
+    "name" : "NO_ROAM_CALL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "28",
+    "name" : "SN_ROAM_CALL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "29",
+    "name" : "GN_ROAM_CALL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "30",
+    "name" : "GAT_ROAM_CALL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "31",
+    "name" : "GJ_ROAM_CALL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "32",
+    "name" : "NO_ROAM_CDR_NUM",
+    "datatype" : "bigint"
+  }, {
+    "id" : "33",
+    "name" : "SN_ROAM_CDR_NUM",
+    "datatype" : "bigint"
+  }, {
+    "id" : "34",
+    "name" : "GN_ROAM_CDR_NUM",
+    "datatype" : "bigint"
+  }, {
+    "id" : "35",
+    "name" : "GAT_ROAM_CDR_NUM",
+    "datatype" : "bigint"
+  }, {
+    "id" : "36",
+    "name" : "GJ_ROAM_CDR_NUM",
+    "datatype" : "bigint"
+  }, {
+    "id" : "37",
+    "name" : "LOCAL_FLUX",
+    "datatype" : "bigint"
+  }, {
+    "id" : "38",
+    "name" : "SN_ROAM_FLUX",
+    "datatype" : "bigint"
+  }, {
+    "id" : "39",
+    "name" : "GN_ROAM_FLUX",
+    "datatype" : "bigint"
+  }, {
+    "id" : "40",
+    "name" : "GAT_ROAM_FLUX",
+    "datatype" : "bigint"
+  }, {
+    "id" : "41",
+    "name" : "GJ_ROAM_FLUX",
+    "datatype" : "bigint"
+  }, {
+    "id" : "42",
+    "name" : "PP_SMS_CNT_UP",
+    "datatype" : "bigint"
+  }, {
+    "id" : "43",
+    "name" : "SP_SMS_CNT_UP",
+    "datatype" : "bigint"
+  }, {
+    "id" : "44",
+    "name" : "SP_SMS_CNT_DOWN",
+    "datatype" : "bigint"
+  }, {
+    "id" : "45",
+    "name" : "OWE_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "46",
+    "name" : "CALL_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "47",
+    "name" : "CALL_SC",
+    "datatype" : "bigint"
+  }, {
+    "id" : "48",
+    "name" : "CALL_TIMES",
+    "datatype" : "bigint"
+  }, {
+    "id" : "49",
+    "name" : "USE_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "50",
+    "name" : "ACTIVATE_DATE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "51",
+    "name" : "ONLINE_DUR_LVL",
+    "datatype" : "bigint"
+  }, {
+    "id" : "52",
+    "name" : "CHURN_FLAG",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "53",
+    "name" : "IF_MBTOCB",
+    "datatype" : "bigint"
+  }, {
+    "id" : "54",
+    "name" : "SWITCH_EFF_DATE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "55",
+    "name" : "JF_TIMES",
+    "datatype" : "bigint"
+  }, {
+    "id" : "56",
+    "name" : "IS_THIS_ACCT",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "57",
+    "name" : "IS_CARD",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "58",
+    "name" : "ACTIVITY_TYPE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "59",
+    "name" : "AGREE_EFF_DATE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "60",
+    "name" : "EXP_DATE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "61",
+    "name" : "ACTIVITY_END_TIME",
+    "datatype" : "bigint"
+  }, {
+    "id" : "62",
+    "name" : "FIRST_CREDIT",
+    "datatype" : "bigint"
+  }, {
+    "id" : "63",
+    "name" : "NOW_CREDIT",
+    "datatype" : "bigint"
+  }, {
+    "id" : "64",
+    "name" : "SMS_MMS_PKG",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "65",
+    "name" : "SMS_RATIO",
+    "datatype" : "bigint"
+  }, {
+    "id" : "66",
+    "name" : "FLUX_PKG",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "67",
+    "name" : "STREAM_RATIO",
+    "datatype" : "bigint"
+  }, {
+    "id" : "68",
+    "name" : "VOICE_PKG",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "69",
+    "name" : "CALL_RATIO",
+    "datatype" : "bigint"
+  }, {
+    "id" : "70",
+    "name" : "MON_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "71",
+    "name" : "PROV_DESC",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "72",
+    "name" : "AREA_NAME",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "73",
+    "name" : "CHNL_TYPE1",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "74",
+    "name" : "CHNL_TYPE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "75",
+    "name" : "CHNL_TYPE3",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "76",
+    "name" : "IS_DUAL",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "77",
+    "name" : "NETMWORK_TYPE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "78",
+    "name" : "U_MIZE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "79",
+    "name" : "T_MIZE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "80",
+    "name" : "M_MIZE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "81",
+    "name" : "ALL_MIZE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "82",
+    "name" : "TMNL_TYPE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "83",
+    "name" : "NEW_TYPE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "84",
+    "name" : "OS_DESC_IPHONE5",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "85",
+    "name" : "FACTORY_DESC",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "86",
+    "name" : "TERM_DESC",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "87",
+    "name" : "USE_MONTHS",
+    "datatype" : "bigint"
+  }, {
+    "id" : "88",
+    "name" : "AVG_USE_MONTH",
+    "datatype" : "bigint"
+  }, {
+    "id" : "89",
+    "name" : "IS_USE_4G",
+    "datatype" : "bigint"
+  }, {
+    "id" : "90",
+    "name" : "IS_SNAPSHOT_USER",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "91",
+    "name" : "IS_SNAPSHOT_USER_4GSJJS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "92",
+    "name" : "IS_SK",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "93",
+    "name" : "SK_TYPE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "94",
+    "name" : "JIAZHI_FLAG",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "95",
+    "name" : "JIAZHI_SCROE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "96",
+    "name" : "MANU_ALIAS1",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "97",
+    "name" : "MODEL_NAME1",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "98",
+    "name" : "MANU_ALIAS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "99",
+    "name" : "MODEL_NAME",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "100",
+    "name" : "MANU_ALIAS3",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "101",
+    "name" : "MODEL_NAME3",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "102",
+    "name" : "WENDING_FLAG",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "103",
+    "name" : "LOST_RATE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "104",
+    "name" : "USER_LEVEL_ZS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "105",
+    "name" : "USER_LEVEL_DESC_ZS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "106",
+    "name" : "WDJZ_CUBE_ZS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "107",
+    "name" : "WDJZ_CUBE1_ZS",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "108",
+    "name" : "IS_HONOR",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "109",
+    "name" : "IS_LOYAL",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "110",
+    "name" : "USER_LEVEL_YPJ",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "111",
+    "name" : "USER_LEVEL_DESC_YPJ",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "112",
+    "name" : "WDJZ_CUBE_YPJ",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "113",
+    "name" : "WDJZ_CUBE1_YPJ",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "114",
+    "name" : "IS_GROUP",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "115",
+    "name" : "CUST_SIZE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "116",
+    "name" : "CUST_NAME",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "117",
+    "name" : "VIP_LEVEL",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "118",
+    "name" : "IS_YZDYH",
+    "datatype" : "bigint"
+  }, {
+    "id" : "119",
+    "name" : "IS_SIM",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "120",
+    "name" : "TMNL_TYPE_UNICOM",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "121",
+    "name" : "IS_SANWU",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "122",
+    "name" : "IS_VIP_VALID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "123",
+    "name" : "IS_USIM",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "124",
+    "name" : "IS_NEW_4G_SERV",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "125",
+    "name" : "CUST_SEX",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "126",
+    "name" : "CERT_AGE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "127",
+    "name" : "CONSTELLATION_DESC",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "128",
+    "name" : "IS_VALID_FLAG",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "129",
+    "name" : "PRE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "130",
+    "name" : "CHNL_TYPE4",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "131",
+    "name" : "CHNL_TYPE1_151",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "132",
+    "name" : "CHNL_TYPE_151",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "133",
+    "name" : "CHNL_TYPE3_151",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "134",
+    "name" : "CHNL_TYPE4_151",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "135",
+    "name" : "IS_YK",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "136",
+    "name" : "IS_CRW",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "137",
+    "name" : "USER_STATUS_EXTEND",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "138",
+    "name" : "PAY_MODE_EXTEND",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "139",
+    "name" : "EFF_DATE_8",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "140",
+    "name" : "EXP_DATE_8",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "141",
+    "name" : "IS_RH",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "142",
+    "name" : "CITY_NO",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "143",
+    "name" : "CITY_DESC",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "144",
+    "name" : "SERVICE_TYPE_NEW",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "145",
+    "name" : "IS_151_ACCT",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "146",
+    "name" : "CALL_DURA_TAG",
+    "datatype" : "bigint"
+  }, {
+    "id" : "147",
+    "name" : "FLUX_M_TAG",
+    "datatype" : "bigint"
+  }, {
+    "id" : "148",
+    "name" : "IS_16_HIGH_U",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "149",
+    "name" : "LAST_STOP_DATE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "150",
+    "name" : "OUT_CALL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "151",
+    "name" : "NO_ROAM_OUT_CALL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "152",
+    "name" : "ROAM_OUT_CALL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "153",
+    "name" : "OUT_JF_TIMES",
+    "datatype" : "bigint"
+  }, {
+    "id" : "154",
+    "name" : "NO_ROAM_OUT_JF_TIMES",
+    "datatype" : "bigint"
+  }, {
+    "id" : "155",
+    "name" : "ROAM_OUT_JF_TIMES",
+    "datatype" : "bigint"
+  }, {
+    "id" : "156",
+    "name" : "SERVICE_TYPE_OLD",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "157",
+    "name" : "IS_ZHWJ",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "158",
+    "name" : "IS_GXZH",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "159",
+    "name" : "IS_ZF",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "160",
+    "name" : "IS_WJT",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "161",
+    "name" : "ONEIN1MON_NET_TYPE_REV",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "162",
+    "name" : "LANQIU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "163",
+    "name" : "ZUQIU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "164",
+    "name" : "YUMAOQIU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "165",
+    "name" : "PINGPANG_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "166",
+    "name" : "TAIQIU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "167",
+    "name" : "WANGQIU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "168",
+    "name" : "PAIQIU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "169",
+    "name" : "QUANJI_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "170",
+    "name" : "GAOQIU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "171",
+    "name" : "SHUISHANG_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "172",
+    "name" : "TICAO_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "173",
+    "name" : "TIANJIN_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "174",
+    "name" : "YUNDONG_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "175",
+    "name" : "BINGXUE_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "176",
+    "name" : "SAICHE_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "177",
+    "name" : "JIXIAN_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "178",
+    "name" : "QIPAI_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "179",
+    "name" : "HUWAI_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "180",
+    "name" : "SHEJI_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "181",
+    "name" : "WUSHU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "182",
+    "name" : "DUIKANG_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "183",
+    "name" : "SHIPIN_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "184",
+    "name" : "YINPIN_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "185",
+    "name" : "YILIAO_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "186",
+    "name" : "LVYOU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "187",
+    "name" : "DACHE_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "188",
+    "name" : "GOUWU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "189",
+    "name" : "WOMENHU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "190",
+    "name" : "WOZHIFU_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "191",
+    "name" : "WODIANSHI_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "192",
+    "name" : "WOSHANGDIAN_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "193",
+    "name" : "WOYOUXIANG_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "194",
+    "name" : "YINGYE_FLOW",
+    "datatype" : "bigint"
+  }, {
+    "id" : "195",
+    "name" : "WEIXIN",
+    "datatype" : "bigint"
+  }, {
+    "id" : "196",
+    "name" : "QQ",
+    "datatype" : "bigint"
+  }, {
+    "id" : "197",
+    "name" : "XINLANGWEIBO",
+    "datatype" : "bigint"
+  }, {
+    "id" : "198",
+    "name" : "SHOUJIYINGYETING",
+    "datatype" : "bigint"
+  }, {
+    "id" : "199",
+    "name" : "LAST3_TOTAL_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "200",
+    "name" : "LAST6_TOTAL_FEE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "201",
+    "name" : "LAST3_TOTAL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "202",
+    "name" : "LAST3_OUT_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "203",
+    "name" : "LAST3_ROAM_NUMS",
+    "datatype" : "bigint"
+  }, {
+    "id" : "204",
+    "name" : "LAST6_ROAM_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "205",
+    "name" : "LAST6_TOTAL_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "206",
+    "name" : "LAST6_OUT_DURA",
+    "datatype" : "bigint"
+  }, {
+    "id" : "207",
+    "name" : "LAST3_FLUX",
+    "datatype" : "bigint"
+  }, {
+    "id" : "208",
+    "name" : "LAST6_FLUX",
+    "datatype" : "bigint"
+  }, {
+    "id" : "209",
+    "name" : "CARD_TYPE",
+    "datatype" : "bigint"
+  }, {
+    "id" : "210",
+    "name" : "CHANNEL_ID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "211",
+    "name" : "CHANNEL_TYPE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "212",
+    "name" : "CHANNEL_NAME",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "213",
+    "name" : "YEAR_MONTH",
+    "datatype" : "varchar(256)"
+  } ],
+  "source_type" : 0,
+  "table_type" : "MANAGED_TABLE",
+  "database" : "DEFAULT"
+}

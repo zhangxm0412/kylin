@@ -283,6 +283,12 @@ public class CuboidSchedulerTest extends LocalFileMetadataTestCase {
         assertEquals(cuboidScheduler.getCuboidCount(), sum);
     }
 
+    @Test
+    public void testCuboid_onlyBaseCuboid() {
+        CubeDesc cube = getCubeDescManager().getCubeDesc("ALL_LABEL_CU");
+        CuboidCLI.simulateCuboidGeneration(cube, true);
+    }
+
     public CubeDescManager getCubeDescManager() {
         return CubeDescManager.getInstance(getTestConfig());
     }
