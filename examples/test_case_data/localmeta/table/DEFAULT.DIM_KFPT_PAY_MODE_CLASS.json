@@ -1,0 +1,18 @@
+{
+  "uuid" : "57c648fc-b61f-4eb9-a500-915d9623ba7f",
+  "last_modified" : 1479204510227,
+  "version" : "1.6.0",
+  "name" : "DIM_KFPT_PAY_MODE_CLASS",
+  "columns" : [ {
+    "id" : "1",
+    "name" : "PAY_MODE",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "2",
+    "name" : "PAY_MODE_DESC",
+    "datatype" : "varchar(256)"
+  } ],
+  "source_type" : 0,
+  "table_type" : "MANAGED_TABLE",
+  "database" : "DEFAULT"
+}

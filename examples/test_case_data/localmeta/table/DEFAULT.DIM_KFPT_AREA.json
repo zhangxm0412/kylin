@@ -1,0 +1,18 @@
+{
+  "uuid" : "d26050ed-0eef-4936-82d2-ec1f62e3b192",
+  "last_modified" : 1479110202081,
+  "version" : "1.6.0",
+  "name" : "DIM_KFPT_AREA",
+  "columns" : [ {
+    "id" : "1",
+    "name" : "AREA_ID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "2",
+    "name" : "AREA_NAME",
+    "datatype" : "varchar(256)"
+  } ],
+  "source_type" : 0,
+  "table_type" : "MANAGED_TABLE",
+  "database" : "DEFAULT"
+}

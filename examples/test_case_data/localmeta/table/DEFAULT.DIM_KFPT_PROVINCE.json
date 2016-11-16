@@ -1,0 +1,18 @@
+{
+  "uuid" : "1eb877f3-0b05-44b4-b42d-3a8d68bf9739",
+  "last_modified" : 1479110992359,
+  "version" : "1.6.0",
+  "name" : "DIM_KFPT_PROVINCE",
+  "columns" : [ {
+    "id" : "1",
+    "name" : "PROV_ID",
+    "datatype" : "varchar(256)"
+  }, {
+    "id" : "2",
+    "name" : "PROV_NAME",
+    "datatype" : "varchar(256)"
+  } ],
+  "source_type" : 0,
+  "table_type" : "MANAGED_TABLE",
+  "database" : "DEFAULT"
+}

@@ -1,0 +1,76 @@
+{
+  "uuid" : "dd250ea4-27f7-4450-b604-fcfdf3578f5a",
+  "last_modified" : 1479206338080,
+  "version" : "1.6.0",
+  "name" : "ALL_LABEL",
+  "owner" : "ADMIN",
+  "description" : "",
+  "fact_table" : "DEFAULT.DM_CLJY_M_ALL_LABEL",
+  "lookups" : [ {
+    "table" : "DEFAULT.DIM_KFPT_IS_OR_NO",
+    "join" : {
+      "type" : "inner",
+      "primary_key" : [ "IS_ID" ],
+      "foreign_key" : [ "IS_DEV" ]
+    }
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_SERVICE_TYPE",
+    "join" : {
+      "type" : "inner",
+      "primary_key" : [ "SERVICE_TYPE" ],
+      "foreign_key" : [ "SERVICE_TYPE" ]
+    }
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_PAY_MODE_CLASS",
+    "join" : {
+      "type" : "inner",
+      "primary_key" : [ "PAY_MODE" ],
+      "foreign_key" : [ "PAY_MODE" ]
+    }
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_AREA",
+    "join" : {
+      "type" : "inner",
+      "primary_key" : [ "AREA_ID" ],
+      "foreign_key" : [ "AREA_ID" ]
+    }
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_PROVINCE",
+    "join" : {
+      "type" : "inner",
+      "primary_key" : [ "PROV_ID" ],
+      "foreign_key" : [ "PROV_ID" ]
+    }
+  } ],
+  "dimensions" : [ {
+    "table" : "DEFAULT.DM_CLJY_M_ALL_LABEL",
+    "columns" : [ "MONTH_ID", "PROV_ID", "AREA_ID", "SERVICE_TYPE", "PAY_MODE", "IS_INNET", "IS_DEV", "IS_BREAK", "IS_ACTIVE", "IS_LOWER_VALUE_USER", "PRODUCT_CLASS", "PRODUCT_CLASS_DESC", "PRODUCT_BASE_CLASS", "PRODUCT_BASE_CLASS_DESC", "USER_STATUS", "AGREE_EFF_DATE", "ACTIVITY_TYPE", "IS_CARD", "IS_THIS_ACCT", "IS_USE_4G", "IS_SNAPSHOT_USER", "IS_SNAPSHOT_USER_4GSJJS", "IS_SK", "SK_TYPE", "IS_HONOR", "IS_LOYAL", "IS_GROUP", "IS_YZDYH", "IS_SIM", "IS_SANWU", "IS_VIP_VALID", "IS_USIM", "IS_NEW_4G_SERV", "CUST_SEX", "CERT_AGE", "IS_YK", "IS_CRW", "SERVICE_TYPE_NEW", "CITY_DESC", "IS_ZHWJ", "IS_GXZH", "IS_ZF", "IS_WJT", "CHANNEL_ID", "CARD_TYPE", "CHANNEL_TYPE", "CHANNEL_NAME" ]
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_SERVICE_TYPE",
+    "columns" : [ "SERVICE_TYPE", "SERVICE_TYPE_NAME" ]
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_PAY_MODE_CLASS",
+    "columns" : [ "PAY_MODE", "PAY_MODE_DESC" ]
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_AREA",
+    "columns" : [ "AREA_ID", "AREA_NAME" ]
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_PROVINCE",
+    "columns" : [ "PROV_ID", "PROV_NAME" ]
+  }, {
+    "table" : "DEFAULT.DIM_KFPT_IS_OR_NO",
+    "columns" : [ "IS_ID", "IS_NAME" ]
+  } ],
+  "metrics" : [ "ACCT_FEE", "RENT_FEE", "FUNC_FEE", "OT_FIX_FEE", "LOCAL_VOICE_FEE", "LONG_VOICE_FEE", "ROAM_VOICE_FEE", "OT_VOICE_FEE" ],
+  "filter_condition" : "",
+  "partition_desc" : {
+    "partition_date_column" : "DEFAULT.DM_CLJY_M_ALL_LABEL.YEAR_MONTH",
+    "partition_time_column" : null,
+    "partition_date_start" : 0,
+    "partition_date_format" : "yyyyMMdd",
+    "partition_time_format" : "HH:mm:ss",
+    "partition_type" : "APPEND",
+    "partition_condition_builder" : "org.apache.kylin.metadata.model.PartitionDesc$DefaultPartitionConditionBuilder"
+  },
+  "capacity" : "MEDIUM"
+}
